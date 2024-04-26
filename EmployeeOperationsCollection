@@ -1,0 +1,119 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "EmployeeOperations",
+    "collectionId": "528071f8-f6dd-4040-9e73-d9a02b8ca536",
+    "dateExported": "2024-04-26T12:12:08.515Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ffa7d9e1-01a9-4fd9-b8e0-dd284b72a5e7",
+            "colId": "528071f8-f6dd-4040-9e73-d9a02b8ca536",
+            "containerId": "",
+            "name": "InsertEmployee",
+            "url": "http://localhost:5000/insertrec",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-26T12:10:02.809Z",
+            "modified": "2024-04-26T12:10:02.809Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"emp_id\":2,\n  \"emp_name\":\"manisha\",\n  \"mobile\":8108217847,\n  \"email\":\"manisham@gmail.com\",\n  \"salary\":3000,\n  \"city\":\"Mumbai\",\n  \"age\":29,\n  \"department\":\"Sales\",\n  \"role\":\"executive\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7f57de11-652c-409c-ab1f-7ac2a9ccee82",
+            "colId": "528071f8-f6dd-4040-9e73-d9a02b8ca536",
+            "containerId": "",
+            "name": "SelectEmployee",
+            "url": "http://localhost:5000/getrec",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-26T12:10:57.501Z",
+            "modified": "2024-04-26T12:10:57.501Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"getattr\":\"Emp_id\",\n  \"getval\":2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "dd001ef1-35d1-4c3e-bc9a-74e966133623",
+            "colId": "528071f8-f6dd-4040-9e73-d9a02b8ca536",
+            "containerId": "",
+            "name": "UpdateEmployee",
+            "url": "http://localhost:5000/updrec",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-26T12:11:21.915Z",
+            "modified": "2024-04-26T12:11:21.915Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"empattr\":\"Age\",\n  \"updval\":23,\n  \"selattr\":\"Department\",\n  \"selval\":\"Sales\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9577bc80-536b-4aad-aea5-d2c7ef7f5975",
+            "colId": "528071f8-f6dd-4040-9e73-d9a02b8ca536",
+            "containerId": "",
+            "name": "DeleteEmployee",
+            "url": "http://localhost:5000/delrec",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-26T12:11:50.862Z",
+            "modified": "2024-04-26T12:11:50.862Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"delattr\":\"department\",\n  \"delval\":\"Sales\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "zoY0FKVAuXE0hnkN4OBy2d56_m02Xh12aQT2YSxM8AUTTVLFXbnWFzl6Cem2WYiEkJSBcU2gNnTSSXdANrT57A"
+}
