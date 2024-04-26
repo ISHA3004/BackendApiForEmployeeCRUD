@@ -23,6 +23,5 @@ The database is hosted on xampp server.The database fields are as follows
 
 #### A collection of api EmployeeOperationCollection is included which allows testing of application.
 
-## Run__
-
-node index.js
+## Run
+    node index.js
